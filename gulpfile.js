@@ -14,6 +14,7 @@ function bs() {
   });
   watch("src/*.html").on('change', browserSync.reload);
   watch("src/sass/**/*.sass", serveSass);
+  
   watch("js/*.js").on('change', browserSync.reload);
 };
 
@@ -26,7 +27,7 @@ function bs() {
 
 // Compile sass into CSS & auto-inject into browsers
 function serveSass() {
-  return src("./src/sass/*.sass")
+  return src("./src/sass/**/*.sass")
       .pipe(sass())
       .pipe(dest("src/css"))
       .pipe(browserSync.stream());
