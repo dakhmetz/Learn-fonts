@@ -321,7 +321,9 @@ template {
   padding: 13px 20px;
   border: none;
   border-radius: 2px;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-size: 13px;
+  font-weight: 500; }
   .button--primary {
     background-color: #E3B873;
     color: #ffffff; }
@@ -351,15 +353,22 @@ template {
 
 .logo {
   color: #E3B873;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 500; }
 
 .nav__item {
   text-decoration: none;
+  font-style: normal;
+  font-weight: normal;
   color: #ffffff;
   text-transform: uppercase;
   margin-right: 40px; }
+  .nav__item--primary {
+    color: #E3B873; }
 
 .phone {
+  font-weight: 500;
   color: #E3B873; }
 
 .contacts__phone {
@@ -379,7 +388,9 @@ template {
     max-width: 670px; }
   .hero__text {
     font-size: 22px;
-    max-width: 500px; }
+    max-width: 500px;
+    font-style: normal;
+    font-weight: normal; }
   .hero__button {
     margin-right: 20px; }
   .hero__instagram {
@@ -417,7 +428,9 @@ template {
   margin: 0;
   font-family: 'Yeseva One', cursive;
   text-transform: uppercase;
-  font-size: 40px; }
+  font-size: 40px;
+  font-style: normal;
+  font-weight: normal; }
   .title--primary {
     color: #E3B873; }
 
