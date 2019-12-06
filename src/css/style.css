@@ -355,6 +355,7 @@ template {
 .logo {
   color: #E3B873;
   text-transform: uppercase;
+  font-family: FuturaDemiC;
   font-style: normal;
   font-weight: 500; }
 
@@ -370,6 +371,7 @@ template {
     color: #E3B873; }
 
 .phone {
+  font-family: FuturaDemiC;
   font-weight: 500;
   color: #E3B873; }
 
@@ -415,6 +417,7 @@ template {
     text-transform: uppercase;
     text-decoration: none;
     font-family: Yeseva One;
+    font-size: 12px;
     color: #ffffff; }
 
 .instagram {
